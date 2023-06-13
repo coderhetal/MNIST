@@ -17,39 +17,13 @@ To run the code, you need to have the following dependencies installed:
 - Matplotlib
 
 
-```
-
-
-
-                +-------------------------------------------------+
-                |                    MNIST Project                 |
-                +-------------------------------------------------+
-                                        |
-                                        v
-                              +-------------------+
-                              |   Download Dataset |
-                              +-------------------+
-                                        |
-                                        v
-                              +-------------------+
-                              |   Preprocessing   |
-                              +-------------------+
-                                        |
-                                        v
-                        +-------------------------------+
-                        |   CNN Architecture Design    |
-                        +-------------------------------+
-                                        |
-                                        v
-                        +-----------------------------+
-                        |   Model Training & Evaluation |
-                        +-----------------------------+
-                                        |
-                                        v
-                             +---------------------+
-                            |  Prediction on testset |
-                             +---------------------+
-
+```mermaid
+flowchart TD;
+    MNIST_PROJECT-->DOWNLOAD_DATASET;
+    DOWNLOAD_DATASET-->PREPROCESSING;
+    PREPROCESSING-->CNN_ARCHITECTURE_DESIGN;
+    CNN_ARCHITECTURE_DESIGN-->MODEL_TRAINING_&_EVALUATION;
+    MODEL_TRAINING_&_EVALUATION-->PREDICTION_ON_TESTSET;    
 ```
 
 
