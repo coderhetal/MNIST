@@ -17,7 +17,7 @@ To run the code, you need to have the following dependencies installed:
 - Matplotlib
 
 
-```mermaid
+```
 
 
 
