@@ -1,4 +1,4 @@
-# MNIST Digit Classifier using CNN (PyTorch)
+# MNIST Digit Recognition with Convolutional Neural Networks (CNN)
 
 This repository contains code for training and evaluating a Convolutional Neural Network (CNN) model on the MNIST dataset to classify handwritten digits. The code is implemented using PyTorch, a popular deep learning framework.
 
@@ -17,7 +17,48 @@ To run the code, you need to have the following dependencies installed:
 - Matplotlib
 
 
+```mermaid
+
+
+
+                +-------------------------------------------------+
+                |                    MNIST Project                 |
+                +-------------------------------------------------+
+                                        |
+                                        v
+                              +-------------------+
+                              |   Download Data   |
+                              +-------------------+
+                                        |
+                                        v
+                              +-------------------+
+                              |   Preprocessing   |
+                              +-------------------+
+                                        |
+                                        v
+                        +-------------------------------+
+                        |   CNN Architecture Design    |
+                        +-------------------------------+
+                                        |
+                                        v
+                        +-----------------------------+
+                        |   Model Training & Evaluation |
+                        +-----------------------------+
+                                        |
+                                        v
+                             +---------------------+
+                            |   Real-time Prediction |
+                             +---------------------+
+
+```
+
+
 ## Model Architecture
+
+### Key Features:
+
+CNN Architecture: The project utilizes a meticulously designed CNN architecture comprising convolutional layers, pooling layers, and fully connected layers. This architecture enables the model to extract intricate features from digit images, facilitating accurate classification.
+
 The CNN model used in this code consists of two convolutional layers followed by fully connected layers. The architecture is as follows:
 ```
 
@@ -40,7 +81,19 @@ CNN (
 ```
 
 
+
+Data Preprocessing: The project employs essential data preprocessing techniques such as normalization and resizing to ensure optimal compatibility with the CNN model, enhancing its overall performance.
+
+
+Model Training and Evaluation: The model undergoes rigorous training using the MNIST training dataset and is evaluated using the MNIST testing dataset. This evaluation process provides crucial insights into the model's performance metrics, including accuracy, precision, and recall.
+
+
 ## Results
 
 The trained model achieves high accuracy on the MNIST test set, as indicated by the accuracy plot.
-The final accuracy : 99.6%
+
+Accuracy while training:
+
+
+Acurracy for test set :
+
