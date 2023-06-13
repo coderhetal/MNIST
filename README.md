@@ -27,7 +27,7 @@ To run the code, you need to have the following dependencies installed:
                                         |
                                         v
                               +-------------------+
-                              |   Download Data   |
+                              |   Download Dataset |
                               +-------------------+
                                         |
                                         v
@@ -47,7 +47,7 @@ To run the code, you need to have the following dependencies installed:
                                         |
                                         v
                              +---------------------+
-                            |   Real-time Prediction |
+                            |  Prediction on testset |
                              +---------------------+
 
 ```
