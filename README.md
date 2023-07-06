@@ -38,18 +38,17 @@ The CNN model used in this code consists of two convolutional layers followed by
 
 CNN (
   (L1): Sequential(
-    (0): Conv2d(1, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (0): Conv2d(1, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
     (1): ReLU()
     (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
   )
   (L2): Sequential(
-    (0): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (0): Conv2d(32, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
     (1): ReLU()
     (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
   )
-  (L3): Linear(in_features=3136, out_features=1000, bias=True)
-  (L4): Linear(in_features=1000, out_features=100, bias=True)
-  (L5): Linear(in_features=100, out_features=10, bias=True)
+  (L3): Linear(in_features=1176, out_features=10, bias=True)
+ 
 )
 
 ```
@@ -64,10 +63,10 @@ Model Training and Evaluation: The model undergoes rigorous training using the M
 
 ## Results
 
-The trained model achieves high accuracy on the MNIST test set, as indicated by the accuracy plot.
+The trained model achieves high accuracy on the MNIST test set, as the accuracy plot indicates.
 
-Accuracy while training:
+Accuracy while training:~ 99%
 
 
-Acurracy for test set :
+Acurracy for test set :96.93495976892923
 
