@@ -65,6 +65,15 @@ Model Training and Evaluation: The model undergoes rigorous training using the M
 
 The trained model achieves high accuracy on the MNIST test set, as the accuracy plot indicates.
 
+
+
+
+![image](https://github.com/coderhetal/MNIST-Handwritten-digits-classification/assets/109482222/e820402d-eb25-4095-97d2-e4a8a378533b)
+
+
+
+
+
 Accuracy while training:~ 99%
 
 
