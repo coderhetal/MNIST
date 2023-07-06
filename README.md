@@ -1,6 +1,10 @@
-# MNIST Digit Recognition with Convolutional Neural Networks (CNN)
+# MNIST Digit Recognition 
 
-This repository contains code for training and evaluating a Convolutional Neural Network (CNN) model on the MNIST dataset to classify handwritten digits. The code is implemented using PyTorch, a popular deep learning framework.
+- Simple neural network 
+
+- Convolutional Neural Networks (CNN)
+
+This repository contains code for training and evaluating a Neural Network  model on the MNIST dataset to classify handwritten digits. The code is implemented using PyTorch, a popular deep learning framework.
 
 ## MNIST Dataset
 
@@ -16,6 +20,7 @@ To run the code, you need to have the following dependencies installed:
 - NumPy
 - Matplotlib
 
+## CNN Architecture :
 
 ```mermaid
 flowchart TD;
@@ -27,7 +32,7 @@ flowchart TD;
 ```
 
 
-## Model Architecture
+### Model Architecture
 
 ### Key Features:
 
