@@ -79,7 +79,8 @@ Accuracy while training:~ 99%
 Acurracy for test set :94.75957697088067
 
 
-![Uploading image.png…]()
+![image](https://github.com/coderhetal/MNIST-Handwritten-digits-classification/assets/109482222/18406a76-1bdb-4fe6-aece-e99ab9019ef6)
+
 
 
 
